@@ -1,0 +1,5 @@
+fpdf==1.7.2
+moviepy==1.0.3
+natsort==8.0.0
+PyPDF2==1.26.0
+rply==0.7.8
