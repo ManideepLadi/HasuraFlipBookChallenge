@@ -3,14 +3,14 @@ import os
 from PyPDF2 import PdfFileMerger
 
 from Lexer import Lexer
-from parser import Parser
+
 
 #create a programming language for reading input file using primitives
 # Eg: startFrame endFrame Image will be stored in human_life_span.flip file
 # further enhancements like adding position of image
+from src.parser import Parser
 
-
-output_path = "../output/flipbook.pdf"
+output_path = "output/flipbook.pdf"
 pdf_merger = PdfFileMerger()
 fname = "input/human_life_span.flip"
 with open(fname) as f:
