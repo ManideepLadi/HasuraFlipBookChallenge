@@ -23,3 +23,10 @@ frames (46,50) age10.png <br />
 
 # Sample Output:
  output folder contains both pdf and mp4 files of human_life_span.flip input file
+ 
+# Further enhancements:
+ Primitives required for showing apple falling on Newton's head
+ We can add further enhancements like <br/>
+ position for initial positioning coordinates of image from top-left  (Created position class in Tokens folder)</br> 
+ scaling for increasing the dimensions(height, width) of image   </br>
+ move for movement the image by x user units on x-axis, y user units on y-axis on every page </br>
