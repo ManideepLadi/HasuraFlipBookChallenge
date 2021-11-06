@@ -11,7 +11,7 @@ def mergeVideos(outputfilename):
         files = natsorted(files)
         # print("9 ", root)
         for file in files:
-            if os.path.splitext(file)[1] == '.mp4':
+            if file.startswith("dummy") and os.path.splitext(file)[1] == '.mp4' :
                 filePath = os.path.join(root, file)
                 video = VideoFileClip(filePath)
                 L.append(video)
